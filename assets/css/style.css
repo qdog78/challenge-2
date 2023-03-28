@@ -1,0 +1,33 @@
+* {font-size: 23pt;
+margin: 0;
+padding: 0;
+flex-wrap: wrap;}
+
+.header{
+    background-color: rgb(171, 128, 227);
+    font-size: 10pt;
+    margin: top 20px; ;
+
+}
+.body {background-color: azure;
+font-size: 23pt;
+margin: 25pt ;
+margin-inline-start: 100px;
+}
+.href{font-size: 40px; text-align: end;
+
+}
+.h2{flex-wrap: wrap;
+background-color: rgb(103, 40, 87);
+font-size: small;
+flex-direction: column;
+border: 30px;
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+border-color: black;
+padding: 0%;}
+
+.div{margin: top 10pt;
+    margin-block: 30pt 
+}
