@@ -28,6 +28,7 @@ nav {
   flex-wrap: wrap;
   height: 500px;
   margin: 20px;
+  justify-content: center;
 }
 .work {
   width: 45%;
@@ -73,7 +74,9 @@ h3 {
   display: flex;
   justify-content: space-around;
   background-color: white;
-  height: 30px;
+  height: 300px;
+  font-size: 25pt;
+ padding-top: 60px;
 }
 .type{
     margin-top: 10pt;
