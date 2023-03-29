@@ -1,3 +1,5 @@
+*{font-family: 'Times New Roman', Times, serif ;}
+
 body {
   background-image: url("../css/Website.jpeg");
   background-size: cover;
@@ -6,7 +8,7 @@ body {
 header {
   display: flex;
   font-size: 46pt;
-  background-color: blueviolet;
+  background-color: white;
   font-weight: 700;
   font-family: "Times New Roman", Times, serif;
   word-spacing: 45px;
@@ -30,7 +32,8 @@ nav {
 .work {
   width: 45%;
   margin: 2pt;
-  background-color: blue;
+  background-color: rgb(57, 167, 211);
+  font-size: 20pt;
 }
 
 nav ul {
@@ -40,7 +43,7 @@ nav ul {
   margin-top: 0px;
   padding: 6px;
   border: 0px;
-  background-color: rgb(231, 218, 40);
+  background-color: rgb(57, 167, 211);
   font-weight: 400;
 }
 
@@ -62,12 +65,16 @@ h3 {
   justify-content: center;
   height: auto;
   width: auto;
-  font-weight: 400;
-  background-color: white;
+  font-size: 40pt;
+  font-weight: 700;
+  color:black;
 }
 .contact {
   display: flex;
   justify-content: space-around;
   background-color: white;
   height: 30px;
+}
+.type{
+    margin-top: 10pt;
 }
