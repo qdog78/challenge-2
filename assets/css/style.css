@@ -1,12 +1,41 @@
-*{background-color: aqua;
+*{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 header{
-    font-size: 46pt;
- justify-content: flex-start;
+display: flex;
+ font-size: 46pt;
+ align-items: center;
+ background-color: blueviolet;
+ font-weight: 700;
+ font-family: 'Times New Roman', Times, serif;
+ word-spacing: 45px;
+flex-wrap: wrap;
+justify-content: center;
+
 }
+
+a{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;}
+
 nav ul{
 font-size: 20pt;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+margin-top: 0px;
+padding: 6px;
+border: 0px;
+background-color: rgb(231, 218, 40);
+font-weight: 400;}
+
+article{   
+     background-color: bisque;
+  display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 30px;
+    font-size: 22pt;
+    color:rgb(9, 9, 9) ;
+    width: 405pt;
+
 }
