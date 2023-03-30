@@ -1,10 +1,11 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
-
+@media screen{    
+}
 body {
-  background-image: url("../css/Website.jpeg");
-  background-size: cover;
+  background-color: tan;
+  height: 2198px;
 }
 
 header {
@@ -28,7 +29,6 @@ nav {
 .boxes {
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
   margin: 20px;
   justify-content: center;
 }
@@ -37,6 +37,7 @@ nav {
   margin: 2pt;
   background-color: rgb(57, 167, 211);
   font-size: 20pt;
+  padding: 15px;
 }
 
 nav ul {
@@ -49,7 +50,6 @@ nav ul {
   background-color: rgb(57, 167, 211);
   font-weight: 400;
 }
-
 article {
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -59,10 +59,7 @@ article {
   font-size: 22pt;
   color: rgb(9, 9, 9);
 }
-h3 {
-  display: flex;
-  width: 500px;
-}
+
 .cards {
   display: flex;
   justify-content: center;
@@ -74,15 +71,36 @@ h3 {
 }
 .contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: white;
-  height: 300px;
   font-size: 25pt;
-  padding-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .type {
   margin-top: 10pt;
 }
 .imgcss {
   width: 190px;
- height: 120px
+  height: 120px;
+}
+
+.contact li {
+  width: 30%;
+  margin: 2pt;
+  font-size: 20pt;
+  padding: 15px;
+}
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+img:hover {
+  width: 70%; height: 70%
+}
+
+.contact:hover {color:green
+}
