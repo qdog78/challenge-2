@@ -1,8 +1,11 @@
 * {
   font-family: "Times New Roman", Times, serif;
 }
-@media screen{    
-}
+
+
+@media (max-width:1000px) {.contact {font-size: 8pt;}}
+
+
 body {
   background-color: tan;
   height: 2198px;
