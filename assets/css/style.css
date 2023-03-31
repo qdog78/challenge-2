@@ -8,8 +8,13 @@
 
 body {
   background-color: tan;
-  height: 2198px;
+  height: 998px;
 }
+
+.headshot{ height: 90px;
+width: 90px;
+display: flex;
+justify-content: left;}
 
 header {
   display: flex;
@@ -102,7 +107,7 @@ footer {
 }
 
 img:hover {
-  width: 70%; height: 70%
+  width: 200px ; height: 200px
 }
 
 .contact:hover {color:green
